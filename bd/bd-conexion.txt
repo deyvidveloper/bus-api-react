@@ -1,0 +1,19 @@
+📦 Base de datos: busbd  
+Sistema gestor: PostgreSQL
+
+La base de datos utilizada es PostgreSQL. Se debe crear una base de datos local llamada 'busbd', con usuario y contraseña definidos en el archivo `application.properties` del backend. Spring Boot se encarga de generar las tablas automáticamente al iniciar el proyecto (`ddl-auto=update`).
+
+🔐 Autenticación básica habilitada  
+Los endpoints están protegidos con Spring Security. Las pruebas fueron realizadas con Postman utilizando las siguientes credenciales:
+
+- Usuario: admin  
+- Contraseña: admin123
+
+📌 Ejemplo en Postman:  
+→ Ir a la pestaña **Authorization**  
+→ Seleccionar el tipo **Basic Auth**  
+→ Ingresar las credenciales y enviar la solicitud a:
+
+GET http://localhost:8080/bus
+
+📌DE IGUAL FORMA LES ANDO DEJANDO EL ARCHIVO DE LA BASE DE DATOS CON LOS EJEMPLOS YA CREADOS, LISTO PARA PROBAR.
